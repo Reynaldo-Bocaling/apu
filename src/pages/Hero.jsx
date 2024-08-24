@@ -17,7 +17,7 @@ const Hero = () => {
           initial={{ x: 0, opacity: 0 }}
           animate={{ x: [-100, 0], opacity: [0, 1] }}
           transition={{ duration: 0.7, delay: 1.2 }}
-          className="title-text text-stroke-md text-9xl md:text-15xl text-red-10 font-bold md:leading-[12rem] -mt-24 md:-mt-52 z-30"
+          className="title-text text-stroke-md text-9xl md:text-15xl text-red-10 font-bold md:leading-[12rem] -mt-20 md:-mt-52 z-30"
         >
           $APU
         </motion.h1>
@@ -25,12 +25,12 @@ const Hero = () => {
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: [100, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
-          className="flex items-center justify-center gap-3 md:gap-9 w-full"
+          className="flex items-center justify-center gap-3 md:gap-9 w-full mt-3"
         >
           {socials.map((item, index) => (
             <a
               key={index}
-              className="w-20 h-20 relative flex items-center justify-center  bg-red-10 rounded-full"
+              className="w-16 h-16 relative flex items-center justify-center  bg-red-10 rounded-full"
             >
               <img src={item.img} className="w-12 h-12 z-30" alt="link icons" />
             </a>
