@@ -10,7 +10,7 @@ const Tokenomics = () => {
           initial={{ x: 0, y: 0, opacity: 0 }}
           whileInView={{ x: [-50, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
-          className="title-text text-stroke-md text-6xl md:text-9xl text-red-200 font-bold md:leading-[12rem]"
+          className="title-text text-stroke-xs text-5xl md:text-9xl text-red-100 font-bold md:leading-[12rem]"
         >
           TOKENOMICS
         </motion.h1>
