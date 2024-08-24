@@ -22,9 +22,13 @@ const About = () => {
             transition={{ duration: 1 }}
             className="title-text text-stroke-sm text-2xl md:text-3xl text-white font-bold mb-9 text-center md:text-left mt-7 md:mt-0"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-            dolore nobis saepe quis eligendi hic in. Ducimus eveniet beatae non
-            sit nisi libero error earum!
+            Apu, affectionately known as Helper, started as a simple,
+            kind-hearted frog from Finland who captured the internet's heart.
+            His journey from humble beginnings to global fame on platforms like
+            Twitter and Reddit has been remarkable. <br /> <br />
+            Now, apu is taking his charm to jew heights int the financial world.
+            Join us in this exciting new chapter as apu makes his mark on Tron
+            Blockchain
           </motion.p>
           <motion.div
             initial={{ scale: 0, y: 0, opacity: 0 }}

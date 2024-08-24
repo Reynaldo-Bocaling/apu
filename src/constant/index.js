@@ -48,11 +48,15 @@ export const socials = [
     url: "",
     variant: "w-16 h-16",
   },
-
   {
-    img: "/img/socials/dexscreener.png",
+    img: "/img/socials/tronscan.png",
     url: "",
-    variant: "w-14 h-14",
+    variant: "w-16 h-16",
+  },
+  {
+    img: "/img/socials/sunpump.png",
+    url: "",
+    variant: "w-16 h-16",
   },
 ];
 
