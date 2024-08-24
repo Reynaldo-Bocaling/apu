@@ -17,7 +17,7 @@ const Hero = () => {
           initial={{ x: 0, opacity: 0 }}
           animate={{ x: [-100, 0], opacity: [0, 1] }}
           transition={{ duration: 0.7, delay: 1.2 }}
-          className="title-text text-stroke-md text-10xl md:text-15xl text-red-10 font-bold md:leading-[12rem] -mt-32 md:-mt-52 z-30"
+          className="title-text text-stroke-md text-9xl md:text-15xl text-red-10 font-bold md:leading-[12rem] -mt-24 md:-mt-52 z-30"
         >
           $APU
         </motion.h1>
