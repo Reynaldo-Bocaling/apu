@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Tokenomics = () => {
   return (
-    <section id="tokenomics" className="relative w-full px-2">
+    <section id="tokenomics" className="relative w-full px-2 mt-24">
       <div className="max-w-6xl mx-auto bg-red-10 shadow-box flex flex-col items-center justify-center gap-5 py-12 md:py-5">
         <motion.h1
           initial={{ x: 0, y: 0, opacity: 0 }}

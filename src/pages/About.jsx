@@ -48,16 +48,15 @@ const About = () => {
         >
           <img src="/img/about.png" alt="" />
         </motion.div>
-
-        <motion.img
-          initial={{ rotate: 0, opacity: 0 }}
-          animate={{ rotate: ["-10deg", 0], opacity: [0, 1] }}
-          transition={{ duration: 0.7, delay: 1 }}
-          src="/img/banner.jpg"
-          alt=""
-          className="rounded-2xl shadow-box mx-5 mt-0  rotate-12"
-        />
       </div>
+      <motion.img
+        initial={{ rotate: 0, opacity: 0 }}
+        animate={{ rotate: ["-10deg", 0], opacity: [0, 1] }}
+        transition={{ duration: 0.7, delay: 1 }}
+        src="/img/banner.jpg"
+        alt=""
+        className="w-full md:max-w-6xl mx-auto rounded-2xl shadow-box mt-0  rotate-12"
+      />
       {/* <img
         src="/img/bg.jpg"
         className="w-full h-full absolute top-0 left-0 opacity-10"
