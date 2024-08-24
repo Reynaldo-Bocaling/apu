@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative w-full z-40">
       <SlidingText />
-      <div className="max-w-7xl mx-auto flex flex-col items-center justify-start pb-9 md:px-5">
+      <div className="max-w-7xl mx-auto flex flex-col items-center justify-start pb-5 md:px-5">
         <motion.img
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: [0, 1], opacity: [0, 1] }}
@@ -25,7 +25,7 @@ const Hero = () => {
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: [100, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
-          className="flex items-center justify-center gap-3 md:gap-9 w-full mt-3"
+          className="flex items-center justify-center gap-3 md:gap-9 w-full mt-7"
         >
           {socials.map((item, index) => (
             <a
