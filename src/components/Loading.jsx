@@ -4,7 +4,7 @@ import logo from "/img/logo.png";
 const Loading = () => {
   return (
     <div className="bg-[#ffbcbc] h-screen w-screen flex items-center justify-center flex-col gap-12">
-      <img src={logo} className="w-44 rounded-full " alt="" />
+      <img src={logo} className="w-44  " alt="" />
       <div className="flex flex-col items-center text-blue-600  -translate-y-12">
         <h1 className="title-text text-stroke-sm text-9xl text-red-10 font-bold z-30  leading-[9rem]">
           $APU
