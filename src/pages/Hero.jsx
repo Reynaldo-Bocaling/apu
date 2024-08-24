@@ -25,7 +25,7 @@ const Hero = () => {
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: [100, 0], opacity: [0, 1] }}
           transition={{ duration: 1 }}
-          className="flex items-center justify-center gap-3 md:gap-9 w-full mt-7"
+          className="flex items-center justify-center gap-2 md:gap-9 w-full mt-7"
         >
           {socials.map((item, index) => (
             <a
