@@ -19,7 +19,6 @@ const Contact = () => {
           </h1>
         </motion.div>
 
-        {/* <img src="/img/footer_pic.png" className="w-[20rem]" alt="" /> */}
         {/* <motion.div
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: [100, 0], opacity: [0, 1] }}
