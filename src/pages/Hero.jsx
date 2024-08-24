@@ -30,7 +30,7 @@ const Hero = () => {
           {socials.map((item, index) => (
             <a
               key={index}
-              className="w-20 h-20 relative flex items-start justify-center py-4 bg-red-10 rounded-full"
+              className="w-20 h-20 relative flex items-center justify-center  bg-red-10 rounded-full"
             >
               <img src={item.img} className="w-12 h-12 z-30" alt="link icons" />
             </a>
