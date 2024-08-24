@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'title-font';
+    src: url('../assets//fonts//title-font.ttf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'normal-font';
+    src: url('../assets//fonts//desk-font.ttf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'extra-font';
+    src: url('../assets//fonts//extra-font.otf') format('opentype');
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "normal-font", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* #hero::before {
+
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -220px;
+    width: 800px;
+    height: 600px;
+    border-radius: 20%;
+    background: radial-gradient(ellipse at center, hsla(263, 38%, 24%, 0.7),
+            transparent 64%);
+    z-index: -1;
+} */
+
+.title-text {
+    font-family: 'title-font', sans-serif;
+
+}
+
+.extra-text {
+    font-family: 'extra-font', sans-serif;
+}
+
+
+.text-stroke-white {
+    -webkit-text-stroke: #fff 1px;
+}
+
+.text-stroke-xs {
+    -webkit-text-stroke: #000 1px;
+}
+
+.text-stroke-sm {
+    -webkit-text-stroke: #000 2px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.text-stroke-md {
+    -webkit-text-stroke: #000 4px;
+    text-shadow: 7px 7px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-stroke-lg {
+    -webkit-text-stroke: #000 7px;
+    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+/* From Uiverse.io by btongheng */
+.button {
+    --😀: #fe0404;
+    --😀😀: #bb3636;
+    --😀😀😀: #ff4d4d63;
+
+
+    cursor: pointer;
+    width: 184px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.125em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--😀);
+    border: 2px solid var(--😀😀);
+    border-radius: .75rem;
+    box-shadow: 0 8px 0 var(--😀😀);
+    transform: skew(-10deg);
+    transition: all .1s ease;
+    filter: drop-shadow(0 15px 20px var(--😀😀😀));
+}
+
+.button:active {
+    letter-spacing: 0px;
+    transform: skew(-10deg) translateY(8px);
+    box-shadow: 0 0 0 var(--😀😀😀);
+}
+
+
+.shadow-box {
+
+    border: 3px solid #000;
+    border-radius: 1em;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: 8px 8px 0px 0px #232323;
+    animation: heartbeat 3.5s infinite;
+}
